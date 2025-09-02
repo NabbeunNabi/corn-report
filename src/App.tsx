@@ -21,7 +21,7 @@ function App() {
               Year: 2025
             </h2>
           </div>
-          <div className='w-full px-2'>
+          <div className='w-full px-2 mb-24'>
             <QuoteBox imageSrc='/fp-corn.jpg' imageAlt='FP is cornfused why you would not love corn'text={cornReport.data['year-2025'].fp}/>
             <QuoteBox imageSrc='/mumsy-corn.jpg' imageAlt='Mumsy magically affecting the corn taste' align='right'text={cornReport.data['year-2025'].mumsy}/>
             <QuoteBox imageSrc='/kittx-corn.jpg' imageAlt='Kitty believes in lush life corn' text={cornReport.data['year-2025'].kittx}/>
