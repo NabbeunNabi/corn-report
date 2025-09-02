@@ -28,6 +28,7 @@ function App() {
             <QuoteBox imageSrc='/sachi-corn.jpg' imageAlt='Sachi surprised about corn' align='right'text={cornReport.data['year-2025'].sachi}/>
             <QuoteBox imageSrc='/hap-corn.jpg' imageAlt='Hap being an oriole traitor talking about corn' text={cornReport.data['year-2025'].hap}/>
             <QuoteBox imageSrc='/william-corn.jpg' imageAlt='William with corn' align='right' text={cornReport.data['year-2025'].william}/>
+            <QuoteBox imageSrc='/peanut-corn-2.jpg' imageAlt='Baby peanut' text={cornReport.data['year-2025'].peanut}/>
           </div>
         </div>
         </div>
